@@ -6,6 +6,8 @@ out
 dist
 *.tgz
 
+photo.png
+
 # code coverage
 coverage
 *.lcov
