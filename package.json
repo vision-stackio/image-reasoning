@@ -1,0 +1,21 @@
+{
+  "name": "image-r",
+  "module": "index.ts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "tsc && node dist/index.js",
+    "start": "tsc && node dist/index.js",
+    "dev": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^7.15.0"
+  }
+}
